@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{369097BD-9294-46F4-AA62-07AAE35AD185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BDAB0350-0BDE-4AB7-A515-24788B6D9D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OloTest.Task1", "src\OloTest.Task1\OloTest.Task1.csproj", "{A7C486B4-8B15-45B2-BA68-CC65D000EA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OloTest.Task2", "src\OloTest.Task2\OloTest.Task2.csproj", "{206B3B38-BE39-407F-BBF4-D630364708BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "meta", "meta", "{88D63607-A9B1-4997-88C0-B05CE868C318}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OloTest.Task2.Tests", "test\OloTest.Task2.Tests\OloTest.Task2.Tests.csproj", "{2EA00461-716B-4457-B06B-8B3ED7667DD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C486B4-8B15-45B2-BA68-CC65D000EA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C486B4-8B15-45B2-BA68-CC65D000EA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C486B4-8B15-45B2-BA68-CC65D000EA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C486B4-8B15-45B2-BA68-CC65D000EA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206B3B38-BE39-407F-BBF4-D630364708BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206B3B38-BE39-407F-BBF4-D630364708BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206B3B38-BE39-407F-BBF4-D630364708BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206B3B38-BE39-407F-BBF4-D630364708BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA00461-716B-4457-B06B-8B3ED7667DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA00461-716B-4457-B06B-8B3ED7667DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA00461-716B-4457-B06B-8B3ED7667DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA00461-716B-4457-B06B-8B3ED7667DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7C486B4-8B15-45B2-BA68-CC65D000EA73} = {369097BD-9294-46F4-AA62-07AAE35AD185}
+		{206B3B38-BE39-407F-BBF4-D630364708BC} = {369097BD-9294-46F4-AA62-07AAE35AD185}
+		{2EA00461-716B-4457-B06B-8B3ED7667DD6} = {BDAB0350-0BDE-4AB7-A515-24788B6D9D32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E923CA1D-3A8D-46B3-88B7-7ED263FDEBF5}
+	EndGlobalSection
+EndGlobal
