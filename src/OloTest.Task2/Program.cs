@@ -1,12 +1,18 @@
-﻿using System;
+﻿using OloTest.Task2.Repositories.OrderRepository;
+using System;
 
 namespace OloTest.Task2
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var orderRepository = new InMemoryOrderRepository();
+            var order = orderRepository.GetOrderByCustomer("John", "Doe");
+            if (order != null)
+                Console.Write(order.Summary());
+
+            Console.ReadKey();
         }
     }
 }
