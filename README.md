@@ -1,6 +1,5 @@
 # Olo Test
 
-
 ### Task 1: Finding Popular Build-Your-Own Pizzas
 
 A pizza chain wants to know which topping combinations are most popular for Build Your Own pizzas.
