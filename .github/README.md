@@ -1,12 +1,29 @@
-# Olo Test
+![OloLogo][OloLogo]
+
+## Table of Content
+
+- [Task 1: Finding Popular Build-Your-Own Pizzas](#task-1-finding-popular-build-your-own-pizzas)
+  - [Description](#)
+  - [Explanation](#)
+- [Task 2: Do the code refactoring](#task-2-do-the-code-refactoring)
+  - [Description](#)
+  - [Explanation](#)
+- [License](#license)
 
 ### Task 1: Finding Popular Build-Your-Own Pizzas
 
+#### Description
 A pizza chain wants to know which topping combinations are most popular for Build Your Own pizzas.
 
 Given the sample of orders at json, write an application to output the top 20 most frequently ordered pizza configurations, listing the toppings for each along with the number of times that pizza configuration has been ordered.
 
+#### Explanation
+Processing...
+
 ### Task 2: Do the code refactoring
+
+#### Description
+Refactor the code listed below:
 
 ```csharp
 using System;
@@ -80,8 +97,12 @@ namespace Refactoring
 }
 ```
 
+#### Explanation
+
+Processing...
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-[LinkedIn]: https://s9.postimg.cc/6lns3n0kv/In-2_CRev-28px-_R.png
+[OloLogo]: https://image.ibb.co/c5A1in/OLO.png
