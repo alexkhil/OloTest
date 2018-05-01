@@ -1,4 +1,5 @@
 ﻿using OloTest.Task1.Models;
+using System;
 using System.Collections.Generic;
 
 namespace OloTest.Task1.ConsoleTableBuilder
@@ -12,7 +13,7 @@ namespace OloTest.Task1.ConsoleTableBuilder
 
         public TopPizzaConsoleTableBuilder(IEnumerable<KeyValuePair<Pizza, int>> topPizzas)
         {
-            _topPizzas = topPizzas;
+            _topPizzas = topPizzas ?? throw new ArgumentNullException(nameof(topPizzas));
         }
 
         protected override void BuildHeader()

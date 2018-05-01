@@ -80,9 +80,6 @@ namespace Refactoring
 }
 ```
 
-## Author
-[![LinkedIn][LinkedIn]](https://www.linkedin.com/in/alex95/)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

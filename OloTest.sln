@@ -11,13 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OloTest.Task1", "src\OloTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OloTest.Task2", "src\OloTest.Task2\OloTest.Task2.csproj", "{206B3B38-BE39-407F-BBF4-D630364708BC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "meta", "meta", "{88D63607-A9B1-4997-88C0-B05CE868C318}"
-	ProjectSection(SolutionItems) = preProject
-		LICENSE.md = LICENSE.md
-		README.md = README.md
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OloTest.Task1.Tests", "test\OloTest.Task1.Tests\OloTest.Task1.Tests.csproj", "{869187A7-1A5E-4D41-A52D-59E10A8C6E19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OloTest.Task1.Tests", "test\OloTest.Task1.Tests\OloTest.Task1.Tests.csproj", "{869187A7-1A5E-4D41-A52D-59E10A8C6E19}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7ACF03E8-EB71-4E45-A3F7-5E5BC5A6B3D3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODE_OF_CONDUCT.md = .github\CODE_OF_CONDUCT.md
+		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		.github\LICENSE.md = .github\LICENSE.md
+		.github\README.md = .github\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
