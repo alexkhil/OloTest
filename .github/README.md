@@ -3,11 +3,11 @@
 ## Table of Content
 
 - [Task 1: Finding Popular Build-Your-Own Pizzas](#task-1-finding-popular-build-your-own-pizzas)
-  - [Description](#)
-  - [Explanation](#)
+  - [Description](#description)
+  - [Explanation](#explanation)
 - [Task 2: Do the code refactoring](#task-2-do-the-code-refactoring)
-  - [Description](#)
-  - [Explanation](#)
+  - [Description](#description-1)
+  - [Explanation](#explanation-1)
 - [License](#license)
 
 ### Task 1: Finding Popular Build-Your-Own Pizzas
