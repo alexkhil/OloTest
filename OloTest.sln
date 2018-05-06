@@ -17,8 +17,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7ACF
 	ProjectSection(SolutionItems) = preProject
 		.github\CODE_OF_CONDUCT.md = .github\CODE_OF_CONDUCT.md
 		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
-		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
 		.github\README.md = .github\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{E7B61EAA-E07F-42E5-8869-4BA8AAD88CBF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\Bug_report.md = .github\ISSUE_TEMPLATE\Bug_report.md
+		.github\ISSUE_TEMPLATE\Feature_request.md = .github\ISSUE_TEMPLATE\Feature_request.md
 	EndProjectSection
 EndProject
 Global
@@ -47,6 +53,7 @@ Global
 		{A7C486B4-8B15-45B2-BA68-CC65D000EA73} = {369097BD-9294-46F4-AA62-07AAE35AD185}
 		{206B3B38-BE39-407F-BBF4-D630364708BC} = {369097BD-9294-46F4-AA62-07AAE35AD185}
 		{869187A7-1A5E-4D41-A52D-59E10A8C6E19} = {BDAB0350-0BDE-4AB7-A515-24788B6D9D32}
+		{E7B61EAA-E07F-42E5-8869-4BA8AAD88CBF} = {7ACF03E8-EB71-4E45-A3F7-5E5BC5A6B3D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E923CA1D-3A8D-46B3-88B7-7ED263FDEBF5}

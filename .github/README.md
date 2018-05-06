@@ -1,28 +1,23 @@
-![OloLogo][OloLogo]
+<a href="https://ipdata.co/">
+    <img src="https://image.ibb.co/c5A1in/OLO.png" alt="Ip Data Logo" title="IpData" align="left" height="60" style="margin-right: 10px" />
+</a>
 
-## Table of Content
+Table of Content
+================
 
 - [Task 1: Finding Popular Build-Your-Own Pizzas](#task-1-finding-popular-build-your-own-pizzas)
-  - [Description](#description)
-  - [Explanation](#explanation)
 - [Task 2: Do the code refactoring](#task-2-do-the-code-refactoring)
-  - [Description](#description-1)
-  - [Explanation](#explanation-1)
+- [Built With](#built-with)
 - [License](#license)
 
 ### Task 1: Finding Popular Build-Your-Own Pizzas
 
-#### Description
 A pizza chain wants to know which topping combinations are most popular for Build Your Own pizzas.
 
 Given the sample of orders at json, write an application to output the top 20 most frequently ordered pizza configurations, listing the toppings for each along with the number of times that pizza configuration has been ordered.
 
-#### Explanation
-Processing...
-
 ### Task 2: Do the code refactoring
 
-#### Description
 Refactor the code listed below:
 
 ```csharp
@@ -97,9 +92,10 @@ namespace Refactoring
 }
 ```
 
-#### Explanation
+## Built With
 
-Processing...
+* [ConsoleTables](https://github.com/khalidabuhakmeh/ConsoleTables) - Allows you to print out objects in a table view in a console application
+* [Newtonsoft.Json](https://www.newtonsoft.com/json) - Popular high-performance JSON framework for .NET
 
 ## License
 
