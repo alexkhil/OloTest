@@ -1,5 +1,5 @@
 <a href="#">
-    <img src="https://image.ibb.co/c5A1in/OLO.png" alt="Ip Data Logo" title="IpData" align="left" height="60" style="margin-right: 10px" />
+    <img src="https://image.ibb.co/c5A1in/OLO.png" alt="Olo logo" title="Olo Test" align="left" height="60" style="margin-right: 10px" />
 </a>
 
 Table of Content
